@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: camunda8-connectors
+
+server:
+  port: 8085
+
+zeebe.client:
+  security:
+    plaintext: true
+  cloud:
+    region: jfk-1
+    clusterId: a06a6b1e-54bb-4fd7-8cbb-9d4732fe3178
+    clientId: kFxO52e6q2-zww_wtDEbviYuN0B8C5Ah
+    clientSecret: oEUyWlbWTeEPkAO7sXLBuGV0cTY0ljE47FRkITg1k.k0SSv.KKLTRqdmRX1j5F9b
